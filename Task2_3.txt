@@ -1,0 +1,3 @@
+I did minimized the test suites in order to get rid of the non important tests which do not affect the coverage rate. 
+I realized that the coverage rate never decreased after I minimised my test suites.
+Moreover, test suite minimization is also used for reducing the time each test run takes by removing redundant test cases.

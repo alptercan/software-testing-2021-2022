@@ -1,0 +1,14 @@
+In the switch cases, the default case is 0. The default case can be used when the case is not true.
+Since we do cannot use the NOTYPE type, I cannot test this case in order to increase the coverage.
+The test I wrote for the default case should not even know about the code in a method. 
+(Switch statements can have an optional default case, and it makes the code more maintainable).
+default:
+				result = 0;
+
+
+In the toString() method, we can see the method comes from OptionMap class. 
+The subclass should pass all the unit tests for the superclass, but overriding a method can fail the relevant unit tests.
+@Override
+	public String toString() {
+		return optionMap.toString();
+	}
